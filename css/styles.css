@@ -17,21 +17,21 @@ Version: 1
 		overflow-x:hidden;
 	}
 	
-      body {
-		padding: 20px 0;
+	body {
+		padding: 0;
 		margin: 0;
 		overflow-x: hidden;
 		font-family: Arial,Helvetica,sans-serif;
 		font-size: 14px;
 		line-height: 20px;
 		color: #000;
-        position: relative;
-      }
+		position: relative;
+	}
 	  
 	  body *
-	 {
-		 max-width: 100%;
-	 }
+	{
+		max-width: 100%;
+	}
 
 
 
@@ -112,96 +112,33 @@ a:hover, a:active
 
 /****** Desktop & Tablet Layout Borders ******/	
 /* Header */
-      .container-narrow {
-        margin: 0 auto;
-		padding: 0 10px;
-        max-width: 960px;
-      }
+
 
 	#site-header
 	{
 		display: block;
 		margin: 0;
-		max-width: 920px;
-		min-height: 155px;
-		background: #fff;
-	}
-	
-	#site-header #tagline {
-		display: block;
-		font-size: 14px;
-		font-weight: bold;
-		margin: 15px auto 0;
-		padding: 0;
-		width: 300px;
-	}
-	
-	#site-header #tagline p {
-		text-align: center;
-	}
-
-	
-	#site-header img {
-		display: block;
-		margin: 0 auto;
-		max-width: 177px;
-		min-width: 177px;
-		padding: 15px 0 0;
-		width: 177px;
-	}
-
-/* Navigation */
-    #nav-bar {  
-		display: block;
 		width: 100%;
-		min-height: 35px;
-		margin: -16px 0 -20px;
-		overflow: auto;
-        background: #074e7f;
-			}  	
+		height: 111px;
+		background: #3C8768;
+		overflow: hidden;
+	}
 
-    #nav-bar .container-narrow {  
-		min-height: 35px;
-		overflow: auto;
-		display: table;
-		text-align: center;
+	#logo {
+		max-width: 920px;
+		display: block;
 		margin: 0 auto;
-		padding: 0 18px 0 0;
-		max-width: 771px;
-		  } 
-		  	
-		.nav {
-		  list-style: none outside none;
-		  margin-bottom: 0;
-		  margin-left: 0;
-		  max-width: 771px;
-		  text-align: center;
-		  display: inline;
-		}
+	}
 
-		.nav li {
-			float: left;
-			width: auto;
-			display: inline;
-			padding: 8px 6px 10px;
-			color: #fff;
-		}
-		
-		.nav li a {
-		font-size: 18px;
-		background: none;
-		color: #fff;
-		text-decoration: none;
-		}
-		
-		.nav li.active a, .nav li a:hover
-		{
-			background: none;
-			text-decoration: none;
-			color: #4FF7F7;
-			text-decoration: none;
-		}
-					
+	#logo img {
+		max-width: 281px;
+		max-height: 71px;
+		padding: 20px 0;
+		display: block;
+		margin: 0 auto;
+	}
+
+
 				  
 /***** Content *****/
 	#site-content
@@ -223,29 +160,24 @@ a:hover, a:active
 	}	
 	
 /***** Footer *****/
-footer
-{
-  bottom: 0;
-  clear: both;
-  height: 70px;
-  position: absolute;
-  width: 100%;
-  overflow: auto;
-  padding-bottom: 12px;
-  background: #ce6f28;
-}
+	footer {
+		clear: both;
+		min-height: 15px;
+		display: block;
+		padding: 20px;
+		width: 100%;
+		background: #074e7f;
+	}
 
-footer p
-{
-  bottom: -10px;
-  color: #fff;
-  padding: 0;
-  position: relative;
-  text-align: center;
-  font-size: 12px;
-  width: 90%;
-  overflow: auto;
-}
+	#copyright {
+		max-width: 920px;
+		display: block;
+		width: auto;
+		margin: 0 auto;
+		overflow: auto;
+		text-align: center;
+		min-height: 20px;
+	}
 
 /***** BxSlider *****/
 .bxslider li img {
@@ -260,10 +192,6 @@ footer p
 
 /***** Mobile Phone & Tablet Styles  *****/
 @media all and (max-width: 767px) {
-	body 
-	{
-		padding: 10px 0;
-	}
 
 	.container-narrow {
 		margin: 0 auto;
@@ -285,15 +213,7 @@ footer p
 		font-size: 14px;
 		text-decoration: none;
 	}	
-	
-	#site-header
-	{
-		display: block;
-		margin: 0;
-		max-width: 920px;
-		min-height: 155px;
-		background: #fff;
-	}
+
 
 	#site-content
 	{
