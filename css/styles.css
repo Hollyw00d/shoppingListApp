@@ -1,10 +1,6 @@
-/*   
-Theme Name: 2013 Puget Sound DA Theme
-Theme URI: http://www.dawashstate.org
-Description: Based on the BLANK starter WordPress Theme template which was created by Chris Coyier - see http://digwp.com/2010/02/blank-wordpress-theme/. This new theme was created by the Puget Sound DA Web Guardian in April 2013.
-Author: Puget Sound DA Web Guardian
-Author URI: http://www.dawashstate.org
-Version: 1
+/*
+HTML and CSS Author: Matt Jennings
+Date: July 11, 2014
 */
 
 /***** HTML & BODY Tags *****/
@@ -26,14 +22,12 @@ Version: 1
 		line-height: 20px;
 		color: #000;
 		position: relative;
+		background: #074e7f;
 	}
 	  
-	  body *
-	{
+	body * {
 		max-width: 100%;
 	}
-
-
 
 
 /***** General ******/
@@ -114,10 +108,10 @@ a:hover, a:active
 /* Header */
 
 
-	#site-header
-	{
+	header {
 		display: block;
 		margin: 0;
+		padding-bottom: 20px;
 		width: 100%;
 		height: 111px;
 		background: #3C8768;
@@ -143,12 +137,14 @@ a:hover, a:active
 /***** Content *****/
 	#site-content
 	{
-		margin-top: 20px;
 		display: block;
-		max-width: 920px;
-		min-height: 175px;
+		max-width: 100%;
+		min-height: 200px;
 		background: #fff;
 		position: relative;
+		clear: both;
+		margin: -20px 0 !important;
+		padding: 20px 0;
 	}
 	
 	#site-content-inner
@@ -156,8 +152,7 @@ a:hover, a:active
 		max-width: 771px;
 		display: block;
 		margin: 0 auto;
-		padding: 0 0 70px 70px;
-	}	
+	}
 	
 /***** Footer *****/
 	footer {
@@ -167,27 +162,24 @@ a:hover, a:active
 		padding: 20px;
 		width: 100%;
 		background: #074e7f;
+		color: #fff;
 	}
 
 	#copyright {
-		max-width: 920px;
 		display: block;
-		width: auto;
+		max-width: 400px;
+		clear: both;
+		min-height: 15px;
+		display: block;
 		margin: 0 auto;
-		overflow: auto;
-		text-align: center;
-		min-height: 20px;
+		padding: 20px;
+		width: 100%;
+		background: #074e7f;
 	}
 
-/***** BxSlider *****/
-.bxslider li img {
-    text-align: center;
-}
 
-.bxslider li img {
-    max-width: 771px;
-    display: block;
-}
+
+
 
 
 /***** Mobile Phone & Tablet Styles  *****/
