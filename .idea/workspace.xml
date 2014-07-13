@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/local.js" afterPath="$PROJECT_DIR$/js/local.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wireframebuild.html" afterPath="$PROJECT_DIR$/wireframebuild.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shoppingListApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="local.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/local.js">
+      <file leaf-file-name="wireframebuild.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wireframebuild.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+            <state line="48" column="9" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-5.5833335" vertical-offset="586" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wireframebuild.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wireframebuild.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="797" selection-end="797" vertical-scroll-proportion="-2.16" vertical-offset="522" max-vertical-offset="1020">
+            <state line="4" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="-2.2083333" vertical-offset="7" max-vertical-offset="1470">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/local.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -49,7 +57,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="22" selection-start="453" selection-end="453" vertical-scroll-proportion="0.20620438" vertical-offset="367" max-vertical-offset="2535">
+            <state line="46" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.054744527" vertical-offset="660" max-vertical-offset="3180">
               <folding />
             </state>
           </provider>
@@ -69,15 +77,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/local.js" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/wireframebuild.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="468" />
-    <option name="y" value="177" />
+    <option name="x" value="315" />
+    <option name="y" value="118" />
     <option name="width" value="940" />
     <option name="height" value="692" />
   </component>
@@ -175,7 +183,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="468" y="177" width="940" height="692" extended-state="0" />
+    <frame x="315" y="118" width="940" height="692" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -244,33 +252,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0952381" vertical-offset="0" max-vertical-offset="1410" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wireframe.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/local.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="4" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="-2.2083333" vertical-offset="7" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wireframebuild.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="797" selection-end="797" vertical-scroll-proportion="-2.16" vertical-offset="522" max-vertical-offset="1020">
+        <state line="48" column="9" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-5.5833335" vertical-offset="586" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="22" selection-start="453" selection-end="453" vertical-scroll-proportion="0.20620438" vertical-offset="367" max-vertical-offset="2535">
+        <state line="46" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.054744527" vertical-offset="660" max-vertical-offset="3180">
           <folding />
         </state>
       </provider>

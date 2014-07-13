@@ -35,6 +35,45 @@ img {
 	border: none;
 }
 
+ul {
+	width: 100%;
+	padding-top: 7px;
+}
+
+li {
+	width: 90%;
+	margin-bottom: 5px;
+}
+
+fieldset {
+	border: none;
+}
+
+button, input {
+	display: block;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	border: 3px solid;
+	margin-bottom: 20px;
+}
+
+#type-text-here {
+	border-color: #018b69;
+	height: 40px;
+}
+
+#type-text-here:first-line {
+	display: inline-block;
+}
+
+
 a:link, a:visited
 {
 	color: #074e7f;
@@ -135,6 +174,10 @@ a:hover, a:active
 
 /***** Mobile Phone & Tablet Styles  *****/
 @media all and (max-width: 767px) {
+
+	ul {
+		padding-top: 34px;
+	}
 
 	#site-content
 	{
