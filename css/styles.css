@@ -17,9 +17,9 @@ Date: July 11, 2014
 		padding: 0;
 		margin: 0;
 		overflow-x: hidden;
-		font-family: Arial,Helvetica,sans-serif;
-		font-size: 14px;
-		line-height: 20px;
+		font-family: Helvetica, Arial,sans-serif;
+		font-size: 22px;
+		line-height: 30px;
 		color: #000;
 		position: relative;
 		background: #074e7f;
@@ -31,39 +31,7 @@ Date: July 11, 2014
 
 
 /***** General ******/
-h1 {
-	color: #ce6f28;
-	font-size: 24px;
-    line-height: 26px;
-	font-weight: bold;
-	padding: 20px 0 10px;
-}
-
-h2 {
-  color: #3D6C87;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 16px;
-  padding: 10px 0 5px;
-}
-
-h3 {
-  color: #3D6C87;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 18px;
-  padding: 0;
-}
-
-p
-{
-	color: #000;
-	padding-bottom: 10px;
-}
-
-img
-{
+img {
 	border: none;
 }
 
@@ -79,24 +47,6 @@ a:hover, a:active
 	text-decoration: none;
 }
 
-.float-left
-{
-	float: left;
-	display: inline-block;
-	width: auto;
-}
-
-.float-right
-{
-	float: right;
-	display: inline-block;
-	width: auto;
-}
-
-.align-center
-{
-	text-align: center;
-}
 
 /* Clearfix */
 .clearfix:after  { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
@@ -144,7 +94,7 @@ a:hover, a:active
 		position: relative;
 		clear: both;
 		margin: -20px 0 !important;
-		padding: 20px 0;
+		padding: 5px 0;
 	}
 	
 	#site-content-inner
@@ -163,6 +113,7 @@ a:hover, a:active
 		width: 100%;
 		background: #074e7f;
 		color: #fff;
+		font-size: 16px;
 	}
 
 	#copyright {
@@ -185,33 +136,12 @@ a:hover, a:active
 /***** Mobile Phone & Tablet Styles  *****/
 @media all and (max-width: 767px) {
 
-	.container-narrow {
-		margin: 0 auto;
-		max-width: 960px;
-		padding: 0;
-	}
-	
-	.nav li {
-		color: #FFFFFF;
-		display: inline;
-		float: left;
-		padding: 4px 3px 5px;
-		width: auto;
-	}	
-
-	.nav li a {
-		background: none repeat scroll 0 0 transparent;
-		color: #FFFFFF;
-		font-size: 14px;
-		text-decoration: none;
-	}	
-
-
 	#site-content
 	{
 		display: block;
 		padding: 0 10px;
-		max-width: 920px;
+		margin-top: -50px !important;
+		min-width: 280px;
 		min-height: 175px;
 	}
 	
@@ -229,17 +159,5 @@ a:hover, a:active
 		width: 100%;
 		overflow: auto;
 	}
-	
-	#footer p 
-	{
-		bottom: -35px;
-		color: #A9A9A9;
-		padding: 0;
-		position: relative;
-		text-align: center;
-		font-size: 12px;
-		width: 80%;
-		overflow: auto;
-	}
-	
+
 }
