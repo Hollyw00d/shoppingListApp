@@ -20,29 +20,35 @@
 
 
 		/*
-		.keyup() function to cause an alert(); after focus is triggered on
-		the input#type-text-here field and Enter key pressed
+		capture list item input into field and output to list
 		*/
 
 
 		function captureInputAndOutput() {
 
 
-				// If [Enter] key pressed output capture input
-				$("input").keypress(function(event) {
+				/*
+				 When [Enter] pressed on keyboard alert() value of
+				 list item
+				*/
+				$("#type-text-here").keypress(function(event) {
 
-//				var listItemInput = $("#type-text-here", this).val();
-				var listItemInput = $("#type-text-here").val();
 
-
+				var listItemInput = $(this).val();
 
 				if (event.which == "13") {
-					event.preventDefault();
-
-//					alert("Enter key pressed!");
 					alert(listItemInput);
-
 				}
+
+
+				// After entering list item in [input] element alert() value of list item when field loses focus
+//			$("input").change(function(){
+//				var getText = $(this).val();
+//
+//				alert(getText);
+//			});
+
+
 			});
 		}
 
