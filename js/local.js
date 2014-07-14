@@ -21,15 +21,32 @@
 
 		/*
 		.keyup() function to cause an alert(); after focus is triggered on
-		the input#type-text-here field
+		the input#type-text-here field and Enter key pressed
 		*/
-		$("#type-text-here").keyup(function(keyPress) {
-			if (keyPress.keyCode == 13) {
-				alert('and that key just so happened to be enter');
-			}
-		})
 
 
+		function captureInputAndOutput() {
+
+
+				// If [Enter] key pressed output capture input
+				$("input").keypress(function(event) {
+
+//				var listItemInput = $("#type-text-here", this).val();
+				var listItemInput = $("#type-text-here").val();
+
+
+
+				if (event.which == "13") {
+					event.preventDefault();
+
+//					alert("Enter key pressed!");
+					alert(listItemInput);
+
+				}
+			});
+		}
+
+		captureInputAndOutput();
 
 	});
 
