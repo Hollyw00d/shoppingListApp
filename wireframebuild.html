@@ -26,7 +26,7 @@
 
 <body>
 
-<header id="site-header">
+<header>
 
 	<section id="logo">
 
@@ -35,26 +35,43 @@
 	</section>
 </header>
 
-<section class="container-narrow">
 
-	<div id="site-content">
+<section id="site-content">
 
-		<div id="site-content-inner">
+	<div id="site-content-inner">
 
-			<h1>10 Blocks from Everywhere in the Heart of Seattle</h1>
+		<ul>
+			<li>Type your grocery list item in the box below.</li>
+			<li>Press <strong>Enter</strong> on your keyboard to add the item.</li>
+			<li>To cross an item off, click on the item's checkbox.</li>
+			<li>To delete an item, click on it and press <strong>Delete</strong> on your keyboard.</li>
+			<li>To delete all items click the <strong>RESET LIST</strong> button.</li>
+		</ul>
+
+		
+		<form>
+
+			<div id="list-output">
 
 
-			<p>The Summit Apartments are located in the Capitol Hill Neighborhood of Seattle. Besides being in one of the most vibrant areas of Seattle, you will be 10 blocks from a library, park, grocery store, nightlife and other amenties.</p>
+			</div><!-- #list-output -->
 
-			<p>Check out our <a href="#">available studio, one bedroom and two bedroom apartments</a>. Then when you ready to rent <a href="#">give us a call today</a>!</p>
+			<fieldset id="list-app">
+					<input id="type-text-here" placeholder="type text here and press enter" />
 
-		</div> </div>
+					<button id="reset-list">reset list</button>
+			</fieldset>
 
-</section>
+		</form>
+
+	</div><!-- #site-content -->
+
+</section><!-- #site-content-inner -->
+
 
 
 <footer>
-	<section id="copyright">&copy;2014 Summit Apartments in Capitol Hill. All rights reserved.</section>
+	<section id="copyright">&copy;<span>2014</span> Matt Jennings. All rights reserved.</section>
 </footer>
 
 

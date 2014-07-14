@@ -1,10 +1,6 @@
-/*   
-Theme Name: 2013 Puget Sound DA Theme
-Theme URI: http://www.dawashstate.org
-Description: Based on the BLANK starter WordPress Theme template which was created by Chris Coyier - see http://digwp.com/2010/02/blank-wordpress-theme/. This new theme was created by the Puget Sound DA Web Guardian in April 2013.
-Author: Puget Sound DA Web Guardian
-Author URI: http://www.dawashstate.org
-Version: 1
+/*
+HTML and CSS Author: Matt Jennings
+Date: July 11, 2014
 */
 
 /***** HTML & BODY Tags *****/
@@ -21,56 +17,32 @@ Version: 1
 		padding: 0;
 		margin: 0;
 		overflow-x: hidden;
-		font-family: Arial,Helvetica,sans-serif;
-		font-size: 14px;
-		line-height: 20px;
+		font-family: Helvetica, Arial,sans-serif;
+		font-size: 22px;
+		line-height: 30px;
 		color: #000;
 		position: relative;
+		background: #074e7f;
 	}
 	  
-	  body *
-	{
+	body * {
 		max-width: 100%;
 	}
 
 
-
-
 /***** General ******/
-h1 {
-	color: #ce6f28;
-	font-size: 24px;
-    line-height: 26px;
-	font-weight: bold;
-	padding: 20px 0 10px;
-}
-
-h2 {
-  color: #3D6C87;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 16px;
-  padding: 10px 0 5px;
-}
-
-h3 {
-  color: #3D6C87;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 18px;
-  padding: 0;
-}
-
-p
-{
-	color: #000;
-	padding-bottom: 10px;
-}
-
-img
-{
+img {
 	border: none;
+}
+
+ul {
+	width: 100%;
+	padding-top: 7px;
+}
+
+li {
+	width: 90%;
+	margin-bottom: 5px;
 }
 
 a:link, a:visited
@@ -85,24 +57,6 @@ a:hover, a:active
 	text-decoration: none;
 }
 
-.float-left
-{
-	float: left;
-	display: inline-block;
-	width: auto;
-}
-
-.float-right
-{
-	float: right;
-	display: inline-block;
-	width: auto;
-}
-
-.align-center
-{
-	text-align: center;
-}
 
 /* Clearfix */
 .clearfix:after  { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
@@ -114,10 +68,10 @@ a:hover, a:active
 /* Header */
 
 
-	#site-header
-	{
+	header {
 		display: block;
 		margin: 0;
+		padding-bottom: 20px;
 		width: 100%;
 		height: 111px;
 		background: #3C8768;
@@ -143,12 +97,14 @@ a:hover, a:active
 /***** Content *****/
 	#site-content
 	{
-		margin-top: 20px;
 		display: block;
-		max-width: 920px;
-		min-height: 175px;
+		max-width: 100%;
+		min-height: 200px;
 		background: #fff;
 		position: relative;
+		clear: both;
+		margin: -20px 0 !important;
+		padding: 5px 0;
 	}
 	
 	#site-content-inner
@@ -156,8 +112,7 @@ a:hover, a:active
 		max-width: 771px;
 		display: block;
 		margin: 0 auto;
-		padding: 0 0 70px 70px;
-	}	
+	}
 	
 /***** Footer *****/
 	footer {
@@ -167,59 +122,70 @@ a:hover, a:active
 		padding: 20px;
 		width: 100%;
 		background: #074e7f;
+		color: #fff;
+		font-size: 16px;
 	}
 
 	#copyright {
-		max-width: 920px;
 		display: block;
-		width: auto;
+		max-width: 400px;
+		clear: both;
+		min-height: 15px;
+		display: block;
 		margin: 0 auto;
-		overflow: auto;
-		text-align: center;
-		min-height: 20px;
+		padding: 20px;
+		width: 100%;
+		background: #074e7f;
 	}
 
-/***** BxSlider *****/
-.bxslider li img {
-    text-align: center;
-}
+/***** List App Form *****/
 
-.bxslider li img {
-    max-width: 771px;
-    display: block;
-}
+	fieldset {
+		border: none;
+	}
+
+	button, input {
+		display: block;
+		width: 100%;
+		height: 40px;
+		text-align: center;
+		font-size: 28px;
+		text-transform: uppercase;
+		border-radius:20px;
+		-moz-border-radius:20px;
+		-o-border-radius:20px;
+		-webkit-border-radius:20px;
+		border: 3px solid;
+		margin-bottom: 20px;
+	}
+
+	#type-text-here {
+		border-color: #018b69;
+		height: 40px;
+	}
+
+	#type-text-here:first-line {
+		display: inline-block;
+	}
+
+	#list-output {
+		display: none;
+	}
 
 
 /***** Mobile Phone & Tablet Styles  *****/
 @media all and (max-width: 767px) {
 
-	.container-narrow {
-		margin: 0 auto;
-		max-width: 960px;
-		padding: 0;
+	ul {
+		padding-top: 34px;
 	}
-	
-	.nav li {
-		color: #FFFFFF;
-		display: inline;
-		float: left;
-		padding: 4px 3px 5px;
-		width: auto;
-	}	
-
-	.nav li a {
-		background: none repeat scroll 0 0 transparent;
-		color: #FFFFFF;
-		font-size: 14px;
-		text-decoration: none;
-	}	
-
 
 	#site-content
 	{
 		display: block;
 		padding: 0 10px;
-		max-width: 920px;
+		margin-top: -50px !important;
+		min-width: 280px;
 		min-height: 175px;
 	}
 	
@@ -237,17 +203,5 @@ a:hover, a:active
 		width: 100%;
 		overflow: auto;
 	}
-	
-	#footer p 
-	{
-		bottom: -35px;
-		color: #A9A9A9;
-		padding: 0;
-		position: relative;
-		text-align: center;
-		font-size: 12px;
-		width: 80%;
-		overflow: auto;
-	}
-	
+
 }
