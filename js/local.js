@@ -20,39 +20,34 @@
 
 
 		/*
-		capture list item input into field and output to list
+		get list items from [input] element and set to [ul > li] elements
 		*/
+		function getAndSetListItems() {
 
-
-		function captureInputAndOutput() {
-
-
-				/*
-				 When [Enter] pressed on keyboard alert() value of
-				 list item
-				*/
 				$("#type-text-here").keypress(function(event) {
 
+					if (event.which == "13") {
+						event.preventDefault();
 
-				var listItemInput = $(this).val();
+						// Get [input] text variable
+						var listItemInput = $(this).val();
 
-				if (event.which == "13") {
-					alert(listItemInput);
-				}
+						// ul#list-output text variable
+						var listOutput = $("#list-output");
 
+						listOutput.show();
+						listOutput.append("<li>" + listItemInput + "<li>");
 
-				// After entering list item in [input] element alert() value of list item when field loses focus
-//			$("input").change(function(){
-//				var getText = $(this).val();
-//
-//				alert(getText);
-//			});
+						$(this).val("");
 
+					}
 
 			});
 		}
 
-		captureInputAndOutput();
+		getAndSetListItems();
+
+		// To remove list items use $("#list-output").html(""); and clicking on button
 
 	});
 
