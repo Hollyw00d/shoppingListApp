@@ -20,16 +20,34 @@
 
 
 		/*
-		.keyup() function to cause an alert(); after focus is triggered on
-		the input#type-text-here field
+		get list items from [input] element and set to [ul > li] elements
 		*/
-		$("#type-text-here").keyup(function(keyPress) {
-			if (keyPress.keyCode == 13) {
-				alert('and that key just so happened to be enter');
-			}
-		})
+		function getAndSetListItems() {
 
+				$("#type-text-here").keypress(function(event) {
 
+					if (event.which == "13") {
+						event.preventDefault();
+
+						// Get [input] text variable
+						var listItemInput = $(this).val();
+
+						// ul#list-output text variable
+						var listOutput = $("#list-output");
+
+						listOutput.show();
+						listOutput.append("<li>" + listItemInput + "<li>");
+
+						$(this).val("");
+
+					}
+
+			});
+		}
+
+		getAndSetListItems();
+
+		// To remove list items use $("#list-output").html(""); and clicking on button
 
 	});
 
