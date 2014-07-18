@@ -15,12 +15,8 @@
 		}
 		getyear();
 
-
-		//
-
-
 		/*
-		get list items from [input] element and set to [ul > li] elements
+		get list items from [input] element and set to [ul > li] elements after pressing [Enter] on keyboard
 		*/
 		function getAndSetListItems() {
 
@@ -32,12 +28,12 @@
 						// Get [input] text variable
 						var listItemInput = $(this).val();
 
-						// ul#list-output text variable
+						// ul#list-output variable setter
 						var listOutput = $("#list-output");
-
 						listOutput.show();
-						listOutput.append("<li>" + listItemInput + "<li>");
+						listOutput.append("<li>" + listItemInput + "</li>");
 
+						// After adding new list item replace input[value] attribute with an empty string
 						$(this).val("");
 
 					}
