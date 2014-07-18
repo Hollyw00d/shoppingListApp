@@ -31,7 +31,7 @@
 						// ul#list-output variable setter
 						var listOutput = $("#list-output");
 						listOutput.show();
-						listOutput.append("<li>" + listItemInput + "</li>");
+						listOutput.append("<li class='pending'>" + listItemInput + "</li>");
 
 						// After adding new list item replace input[value] attribute with an empty string
 						$(this).val("");
@@ -39,9 +39,23 @@
 					}
 
 			});
-		}
 
+			/*
+			For trying to pass one variable from one function to another put getAndSetListItems() & crossOffListItem() functions in one big function to call later or use this method below:
+			http://stackoverflow.com/questions/10584660/how-do-i-pass-local-variable-value-from-one-function-to-another
+			*/
+
+			crossOffListItems(listOutput);
+
+		}
 		getAndSetListItems();
+
+		// Toggle cross off & on list items
+		function crossOffListItems(listItemParent) {
+
+			var listItemParent = listParent.children("li");
+
+		}
 
 		// To remove list items use $("#list-output").html(""); and clicking on button
 

@@ -144,6 +144,10 @@ a:hover, a:active
 		border: none;
 	}
 
+	textarea:focus, input:focus, button:focus {
+		outline: 0;
+	}
+
 	button, input {
 		display: block;
 		width: 100%;
@@ -158,18 +162,44 @@ a:hover, a:active
 		margin-bottom: 20px;
 	}
 
+
+
 	#type-text-here {
 		border-color: #018b69;
 		height: 40px;
 	}
+
+
+/***** List Items *****/
 
 	#type-text-here:first-line {
 		display: inline-block;
 	}
 
 	#list-output {
+		list-style: none;
 		display: none;
 	}
+
+	.pending {
+		padding-left: 35px;
+		background-image: url("../images/check-mark-small.png");
+		background-repeat: no-repeat;
+		color: #07fa07;
+		line-height: 35px;
+	}
+
+	.done {
+		padding-left: 35px;
+		background-image: url("../images/cross-out-small.png");
+		background-repeat: no-repeat;
+		color: #fe0002;
+		line-height: 35px;
+		text-decoration: line-through;
+	}
+
+
+
 
 
 /***** Mobile Phone & Tablet Styles  *****/
