@@ -18,46 +18,47 @@
 		/*
 		get list items from [input] element and set to [ul > li] elements after pressing [Enter] on keyboard
 		*/
-		function getAndSetListItems() {
 
-				$("#type-text-here").keypress(function(event) {
+		function getSetRemoveListItems() {
 
-					if (event.which == "13") {
-						event.preventDefault();
+			// ul#list-output liste item container
+			var listOutput = $("#list-output");
+			// list items inside ul#list-output
+			var listItem = listOutput.find("li");
 
-						// Get [input] text variable
-						var listItemInput = $(this).val();
+			function getListItems() {
 
-						// ul#list-output variable setter
-						var listOutput = $("#list-output");
-						listOutput.show();
-						listOutput.append("<li class='pending'>" + listItemInput + "</li>");
+					$("#type-text-here").keypress(function(event) {
 
-						// After adding new list item replace input[value] attribute with an empty string
-						$(this).val("");
+						if (event.which == "13") {
+							event.preventDefault();
 
-					}
+							// Get [input] text variable
+							var listItemInput = $(this).val();
 
-			});
+							listOutput.show();
+							listOutput.append("<li class='pending'>" + listItemInput + "</li>");
 
-			/*
-			For trying to pass one variable from one function to another put getAndSetListItems() & crossOffListItem() functions in one big function to call later or use this method below:
-			http://stackoverflow.com/questions/10584660/how-do-i-pass-local-variable-value-from-one-function-to-another
-			*/
+							// After adding new list item replace input[value] attribute with an empty string
+							$(this).val("");
 
-			crossOffListItems(listOutput);
+						}
+
+				})
+
+			}
+			getListItems();
+
+//		.click(function() {
+//				$(this).find("li").attr("class", "done");
+//			});
+
+
 
 		}
-		getAndSetListItems();
 
-		// Toggle cross off & on list items
-		function crossOffListItems(listItemParent) {
+		getSetRemoveListItems();
 
-			var listItemParent = listParent.children("li");
-
-		}
-
-		// To remove list items use $("#list-output").html(""); and clicking on button
 
 	});
 

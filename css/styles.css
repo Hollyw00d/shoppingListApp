@@ -178,7 +178,9 @@ a:hover, a:active
 
 	#list-output {
 		list-style: none;
-		display: none;
+		/*display: none;*/
+
+		display: block;
 	}
 
 	.pending {
