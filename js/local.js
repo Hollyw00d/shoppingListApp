@@ -18,32 +18,47 @@
 		/*
 		get list items from [input] element and set to [ul > li] elements after pressing [Enter] on keyboard
 		*/
-		function getAndSetListItems() {
 
-				$("#type-text-here").keypress(function(event) {
+		function getSetRemoveListItems() {
 
-					if (event.which == "13") {
-						event.preventDefault();
+			// ul#list-output liste item container
+			var listOutput = $("#list-output");
+			// list items inside ul#list-output
+			var listItem = listOutput.find("li");
 
-						// Get [input] text variable
-						var listItemInput = $(this).val();
+			function getListItems() {
 
-						// ul#list-output variable setter
-						var listOutput = $("#list-output");
-						listOutput.show();
-						listOutput.append("<li>" + listItemInput + "</li>");
+					$("#type-text-here").keypress(function(event) {
 
-						// After adding new list item replace input[value] attribute with an empty string
-						$(this).val("");
+						if (event.which == "13") {
+							event.preventDefault();
 
-					}
+							// Get [input] text variable
+							var listItemInput = $(this).val();
 
-			});
+							listOutput.show();
+							listOutput.append("<li class='pending'>" + listItemInput + "</li>");
+
+							// After adding new list item replace input[value] attribute with an empty string
+							$(this).val("");
+
+						}
+
+				})
+
+			}
+			getListItems();
+
+//		.click(function() {
+//				$(this).find("li").attr("class", "done");
+//			});
+
+
+
 		}
 
-		getAndSetListItems();
+		getSetRemoveListItems();
 
-		// To remove list items use $("#list-output").html(""); and clicking on button
 
 	});
 
