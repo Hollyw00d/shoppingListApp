@@ -18,48 +18,45 @@
 		/*
 		get list items from [input] element and set to [ul > li] elements after pressing [Enter] on keyboard
 		*/
-
 		function getSetRemoveListItems() {
 
-			// ul#list-output liste item container
+			// ul#list-output list item container
 			var listOutput = $("#list-output");
-			// list items inside ul#list-output
-			var listItem = listOutput.find("li");
 
-			function getListItems() {
+			// Add list items when pressing [Enter] key
+			$("#type-text-here").on("keypress", function(event) {
 
-					$("#type-text-here").keypress(function(event) {
+				if (event.which == "13") {
+					event.preventDefault();
 
-						if (event.which == "13") {
-							event.preventDefault();
+					// Get [input] text variable
+					var listItemInput = $(this).val();
 
-							// Get [input] text variable
-							var listItemInput = $(this).val();
+					listOutput.show().append("<li class='pending'>" + listItemInput + "</li>");
 
-							listOutput.show();
-							listOutput.append("<li class='pending'>" + listItemInput + "</li>");
+					// After adding new list item replace input[value] attribute with an empty string
+					$(this).val("");
+				}
 
-							// After adding new list item replace input[value] attribute with an empty string
-							$(this).val("");
+			});
 
-						}
+			// Replace the "pending" class with "done" after clicking a list item
+			$(document).on("click", ".pending", function() {
+				$(this).removeClass("pending").addClass("done");
+			});
 
-				})
-
-			}
-			getListItems();
-
-//		.click(function() {
-//				$(this).find("li").attr("class", "done");
-//			});
-
-
+			// [Reset List] button to remove all list items
+			$("#reset-list").on("click", function(event) {
+				event.preventDefault();
+				listOutput.html("");
+			});
 
 		}
 
 		getSetRemoveListItems();
 
-
+	// End Document Ready
 	});
 
+// End Anonymous Function
 })();
