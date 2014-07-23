@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377b6fee-662b-48da-bd62-15fb7fd1beed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/local.js" afterPath="$PROJECT_DIR$/js/local.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/check-mark-small copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/check-mark-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/check-mark-small.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cross-out-small copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cross-out-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cross-out-small.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shoppingListApp.iws" />
@@ -26,19 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="local.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="local.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/local.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="17" selection-start="842" selection-end="842" vertical-scroll-proportion="0.048027445" vertical-offset="497" max-vertical-offset="1080">
+            <state line="6" column="25" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1305">
+            <state line="34" column="0" selection-start="732" selection-end="732" vertical-scroll-proportion="0.21466905" vertical-offset="435" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -66,8 +71,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="44" />
+    <option name="x" value="109" />
+    <option name="y" value="67" />
     <option name="width" value="1269" />
     <option name="height" value="727" />
   </component>
@@ -157,7 +162,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="44" width="1269" height="727" extended-state="0" />
+    <frame x="109" y="67" width="1269" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -166,7 +171,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13447432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30888346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31377342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -200,6 +205,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="17" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="8" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
@@ -406,16 +425,16 @@
         <state line="181" column="0" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.026978416" vertical-offset="2715" max-vertical-offset="3660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/local.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1305">
+        <state line="6" column="25" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/local.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="842" selection-end="842" vertical-scroll-proportion="0.048027445" vertical-offset="497" max-vertical-offset="1080">
+        <state line="34" column="0" selection-start="732" selection-end="732" vertical-scroll-proportion="0.21466905" vertical-offset="435" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
