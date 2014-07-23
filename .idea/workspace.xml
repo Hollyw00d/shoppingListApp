@@ -35,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="554" selection-end="554" vertical-scroll-proportion="0.27549195" vertical-offset="266" max-vertical-offset="1305">
+            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.053667262" vertical-offset="0" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="109" />
-    <option name="y" value="67" />
+    <option name="x" value="110" />
+    <option name="y" value="263" />
     <option name="width" value="1269" />
     <option name="height" value="727" />
   </component>
@@ -154,7 +154,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="67" width="1269" height="727" extended-state="0" />
+    <frame x="110" y="263" width="1269" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -454,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="554" selection-end="554" vertical-scroll-proportion="0.27549195" vertical-offset="266" max-vertical-offset="1305">
+        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.053667262" vertical-offset="0" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
