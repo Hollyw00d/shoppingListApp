@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377b6fee-662b-48da-bd62-15fb7fd1beed" name="Default" comment="" />
+    <list default="true" id="377b6fee-662b-48da-bd62-15fb7fd1beed" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="shoppingListApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.053667262" vertical-offset="0" max-vertical-offset="1305">
+            <state line="2" column="16" selection-start="33" selection-end="33" vertical-scroll-proportion="0.053667262" vertical-offset="0" max-vertical-offset="1335">
               <folding />
             </state>
           </provider>
@@ -56,15 +58,15 @@
       <list>
         <option value="$PROJECT_DIR$/wireframebuild.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/local.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
-    <option name="y" value="263" />
+    <option name="x" value="118" />
+    <option name="y" value="22" />
     <option name="width" value="1269" />
     <option name="height" value="727" />
   </component>
@@ -154,7 +156,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="263" width="1269" height="727" extended-state="0" />
+    <frame x="118" y="22" width="1269" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -454,7 +456,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.053667262" vertical-offset="0" max-vertical-offset="1305">
+        <state line="2" column="16" selection-start="33" selection-end="33" vertical-scroll-proportion="0.053667262" vertical-offset="0" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
