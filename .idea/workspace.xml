@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377b6fee-662b-48da-bd62-15fb7fd1beed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="377b6fee-662b-48da-bd62-15fb7fd1beed" name="Default" comment="" />
     <ignored path="shoppingListApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +35,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.5675676" vertical-offset="825" max-vertical-offset="1380">
+            <state line="16" column="16" selection-start="356" selection-end="356" vertical-scroll-proportion="0.13513513" vertical-offset="210" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -542,7 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.5675676" vertical-offset="825" max-vertical-offset="1380">
+        <state line="16" column="16" selection-start="356" selection-end="356" vertical-scroll-proportion="0.13513513" vertical-offset="210" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
