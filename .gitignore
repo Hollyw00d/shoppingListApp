@@ -1,0 +1,12 @@
+# phpstorm directories/files to ignore
+.idea
+.idea/
+.idea/*
+**/.idea/workspace.xml 
+**/.idea/tasks.xml
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+
+# files to ignore
+.DS_Store
+workspace.xml
