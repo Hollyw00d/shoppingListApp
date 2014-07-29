@@ -24,7 +24,7 @@
 			// ul#list-output list item container
 			var listOutput = $("#list-output");
 			// list items inside ul#list-output
-			var listItem = listOutput.find("li");
+			// var listItem = listOutput.find("li");
 
 			// Add list items when pressing [Enter] key
 			$("#type-text-here").on("keypress", function(event) {
@@ -35,17 +35,21 @@
 					// Get [input] text variable
 					var listItemInput = $(this).val();
 
-					listOutput.show().append("<li class='pending'>" + listItemInput + "</li>");
+					// Create the list item & click event to cross off individual list item
+					var task = $("<li>").html(listItemInput).attr("class", "pending").on("click", function() {
+						if($(this).hasClass("pending")) {
+							$(this).removeClass("pending").addClass("done");
+						} else {
+							$(this).removeClass("done").addClass("pending");
+						}
+					});
+
+					listOutput.append(task);
 
 					// After adding new list item replace input[value] attribute with an empty string
 					$(this).val("");
 				}
 
-			});
-
-			// Replace the "pending" class with "done" after clicking a list item
-			$(document).on("click", ".pending", function() {
-				$(this).removeClass("pending").addClass("done");
 			});
 
 			// [Reset List] button to remove all list items
